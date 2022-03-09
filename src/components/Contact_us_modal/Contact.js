@@ -11,15 +11,17 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_3u82gxo",
-        "template_s9jkf5b",
+        "service_fygr39s",
+        "template_du8qgwi",
         form.current,
-        "fwpp4k-kljuwfDYiq"
+        "u6BRbxiOgSc9wRPeH"
       )
       .then(
         (result) => {
           console.log(result.text);
-          alert("SUCCESS!");
+          alert(
+            "Thanks for contacting us! We will be in touch with you shortly."
+          );
         },
         (error) => {
           console.log(error.text);
