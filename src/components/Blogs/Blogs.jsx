@@ -24,25 +24,25 @@ class Blogs extends React.Component {
       <div>
         <div id="cards_landscape_wrap-2">
           <div className="container Blogs">
-            <div className="row" style={{ margin: "auto" }}>
+            <div className="rows" style={{ margin: "auto" }}>
               {this.state.blogs.map((b) => {
                 return (
-                  <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4">
+                  <div className="col-xs-12 col-sm-12 col-md-6">
                     <div className="card-flyer">
                       <div className="text-box">
                         <div className="image-box">
                           <img src={b.thumbnail} alt="" />
                         </div>
                         <div className="text-container">
-                          <h6 className="blogTitle">{b.title}</h6>
-                          <p className="blogDescription">
+                          <h6>{b.title}</h6>
+                          <p>
                             {b.description}
-                            <a className="readmore" href={b.link}>
+                            <a href={b.link}>
                               read more
-                            </a>
-                          </p>
-                          <p className="blogAuthor">Written By :{b.author}</p>
-                          <p>Date Published :{b.pubDate}</p>
+                            </a></p>
+                          <br /> 
+                         <p className="new"> Written By :{b.author}   <br />
+                          Date Published :{b.pubDate}</p>
                         </div>
                       </div>
                     </div>
@@ -58,3 +58,15 @@ class Blogs extends React.Component {
 }
 
 export default Blogs;
+
+
+
+
+
+
+
+
+
+
+
+
