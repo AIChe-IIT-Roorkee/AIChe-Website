@@ -4,7 +4,7 @@ const convertToText = (desc) => {
   var elem = document.createElement("div");
   elem.innerHTML = desc;
   desc = elem.innerText;
-  return desc.slice(0, 100) + "...";
+  return desc.slice(0, 400) + "...";
 };
 
 const convertToDate = (d) => {

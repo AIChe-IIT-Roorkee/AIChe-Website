@@ -1,151 +1,152 @@
-.container {
-  margin: auto;
-}
 
-.post {
-  margin: 15px;
-}
-
-/* .Blogs .container-fluid {
-  background-color: rgb(253, 216, 216);
-} */
-
-.readmore {
-  color: rgb(25, 93, 182);
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  margin: auto;
-}
-
-/* h6 {
-  text-align: center;
-} */
-
-.heading {
-  margin-top: 70px;
-}
-
-/* @media (min-width: 992px) {
-  .img-thumbnail {
-    height: 25vw;
-    width: 100%;
-  }
-} */
-
-/* .Blogs .blogAuthor {
-  height: 50px;
-} */
-
-.Blogs .blogTitle {
-  /* height: 60px; */
-  height: 100%;
-  text-align: center;
-  /* text-size-adjust: auto; */
-}
-
-.Blogs .blogDescription {
-  height: 100%;
-  text-align: justify;
-  /* text-size-adjust: auto; */
-  /* height: 100px; */
-}
-
-#cards_landscape_wrap-2 {
-  /* text-align: center; */
-  background: #f1f5f8;
-}
-
-#cards_landscape_wrap-2 .container {
-  padding-top: 80px;
-  padding-bottom: 100px;
-}
-#cards_landscape_wrap-2 a {
-  text-decoration: none;
-  outline: none;
-}
-#cards_landscape_wrap-2 .card-flyer {
-  border-radius: 5px;
-}
 #cards_landscape_wrap-2 .card-flyer .image-box {
-  background: #ffffff;
-  overflow: hidden;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
-  border-radius: 5px;
-}
-#cards_landscape_wrap-2 .card-flyer .image-box img {
-  -webkit-transition: all 0.9s ease;
-  -moz-transition: all 0.9s ease;
-  -o-transition: all 0.9s ease;
-  -ms-transition: all 0.9s ease;
-  width: 100%;
-  height: 200px;
+  width: 48rem;
+  height: 50vh;            
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8; 
 }
 
-#cards_landscape_wrap-2 .card-flyer:hover .image-box img {
-  opacity: 0.7;
-  -webkit-transform: scale(1.15);
-  -moz-transform: scale(1.15);
-  -ms-transform: scale(1.15);
-  -o-transform: scale(1.15);
-  transform: scale(1.15);
+#cards_landscape_wrap-2 .card-flyer .image-box img {
+  width: 48rem;
+  height: 50vh;
+  box-shadow: var(--dark-shadow);
 }
+#cards_landscape_wrap-2 .card-flyer .image-box img::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48rem;
+  height: 50vh;
+  background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
+  opacity: 0.85;
+  transition: var(--transition);
+}
+#cards_landscape_wrap-2 .card-flyer .image-box img:hover{
+  opacity: 0;
+}
+.card-flyer{
+  margin-left: -20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+ #cards_landscape_wrap-2 .card-flyer:hover .image-box img {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 48rem;
+  height: 50vh;
+  background: linear-gradient(to bottom right, var(--clr-primary-5), #222);
+  opacity: 0.6;
+  transition: var(--transition);
+} 
 
 #cards_landscape_wrap-2 .card-flyer .text-box {
-  text-align: left;
+  width: 40rem;
+  height: 45vh;
+  position: relative;
+  margin: 20px;
+  background: #f1f5f8;
+  padding: 1rem 2rem;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  margin-left: 30px;
 }
 
 #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
-  padding: 30px 18px;
+  height: 40vh;
+  width: 43rem;         
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.8; 
+  z-index: 1;
+  background-color: #ffffff;
+  margin-left: 400px;
+  margin-top: 30px;
+}
+#cards_landscape_wrap-2 .card-flyer .text-box .new{
+  text-align: right;
+  margin-top: -40px;
 }
 
-#cards_landscape_wrap-2 .card-flyer {
-  background: #ffffff;
-  margin-top: 50px;
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4);
+.rows{
+  display: grid;
 }
 
-#cards_landscape_wrap-2 .card-flyer:hover {
-  background: #fff;
-  box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.5);
-  -webkit-transition: all 0.2s ease-in;
-  -moz-transition: all 0.2s ease-in;
-  -ms-transition: all 0.2s ease-in;
-  -o-transition: all 0.2s ease-in;
-  transition: all 0.2s ease-in;
-  margin-top: 50px;
-}
 #cards_landscape_wrap-2 .card-flyer .text-box p {
-  margin-top: 10px;
   margin-bottom: 0px;
   padding-bottom: 0px;
   font-size: 14px;
+  font-weight: normal;
   letter-spacing: 1px;
-  color: #000000;
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify; 
+  margin-bottom: 20px;
 }
 #cards_landscape_wrap-2 .card-flyer .text-box h6 {
   margin-top: 0px;
+  text-align: center;
   margin-bottom: 4px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-family: "Roboto Black", sans-serif;
   letter-spacing: 1px;
-  color: #00acc1;
+  color: #2caeba;
+  margin: 15px;
 }
 
 @media only screen and (max-width: 600px) {
-  .Blogs .row {
-    width: 85%;
-    margin: auto;
-    margin-left: 0;
-    margin-right: 0;
+  /* #cards_landscape_wrap-2 .card-flyer .image-box {
+    position: relative;
+    width: 16rm;
+    height: 20vh;
+    transform: translateY(-80px);
+    z-index: 99;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: -20px;
   }
+  #cards_landscape_wrap-2 .card-flyer .image-box img {
+    width: 16rm;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-150px);
+    opacity: 0;
+    transition: 0.3s;
+    margin-top: 120px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    background-color: #222;
+    width: 12rm;
+    height: 25vh;
+  }
+  #cards_landscape_wrap-2 .card-flyer:hover .text-box .text-container {
+    opacity: 1;
+    transform: translateY(-100px);
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container p{
+    color: #ffffff;
+  } */
+  #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+     max-width: 70%;
+     height: 30vh;
+     margin-left: 300px;
+     margin-top: 80px;
+  }
+  #cards_landscape_wrap-2 .card-flyer .text-box img{
+    max-width: 65%;
+    height: 45vh;
+ }
 }
