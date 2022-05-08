@@ -13,11 +13,11 @@ const Hero = () => {
             <div className="underline"></div>
             <h1>AIChE IITR</h1>
             <h4>Think | Innovate | Change</h4>
-            <Link to="/contact" className="btn">
+           <Link to="/contact" className="btn">
               contact us
             </Link>
             <div className="social-links">
-              {socialLinks.map((link) => {
+              {socialLinks.map(link => {
                 return (
                   <a href={link.url} key={link.id} className="social-link">
                     {link.icon}
