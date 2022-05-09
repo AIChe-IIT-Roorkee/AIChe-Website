@@ -17,7 +17,7 @@ export default class Footer extends React.Component {
 
           <div className="footer-inner">
             <div>
-              Mail Us at:
+              Mail us at:
               <p>
                 <a className="email" href="mailto:aiche.iitr@gmail.com">
                   aiche.iitr@gmail.com
