@@ -6,6 +6,7 @@ export default class Events extends React.PureComponent {
     return (
       <>
         <h1 className="events-title">Events</h1>
+        
         <div className="body1">
           <div className="card">
             <div className="imgbox">
