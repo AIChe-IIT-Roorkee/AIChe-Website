@@ -20,7 +20,7 @@ export default class Footer extends React.Component {
               Mail Us at:
               <p>
                 <a className="email" href="mailto:aiche.iitr@gmail.com">
-                  aiche@ch.iitr.ac.in
+                  aiche.iitr@gmail.com
                 </a>
               </p>
             </div>
