@@ -7,7 +7,7 @@ export default class Footer extends React.Component {
     return (
       <div>
         <div className="footer">
-          <div>
+          <div className="footer-inner">
             <i className="fa fa-map-marker"></i>
             <p>
               <span>Roorkee - Haridwar Highway </span>Roorkee, Uttarakhand
@@ -15,7 +15,7 @@ export default class Footer extends React.Component {
             </p>
           </div>
 
-          <div className="footer-center">
+          <div className="footer-inner">
             <div>
               Mail Us at:
               <p>
@@ -26,7 +26,7 @@ export default class Footer extends React.Component {
             </div>
           </div>
 
-          <div className="footer-right">
+          <div className="footer-inner">
             Follow Us On:
             <div className="footer-links social-links">
               {socialLinks.map((link) => {

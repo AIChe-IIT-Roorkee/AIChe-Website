@@ -784,14 +784,24 @@ Footer
 ===============
 */
 .footer {
-  padding: 0 3rem 0 3rem;
+  padding: 0 2rem 0 2rem;
   height: 9rem;
-  background: #f4f4f4;
+  background: #222;
   align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  box-shadow: #222;
+  color: var(--clr-white);
+  margin-top: 3rem;
+}
+.footer-inner {
+  width: 33%;
+  text-align: center;
+}
+.footer a,
+.footer p {
+  color: var(--clr-white);
+  text-decoration: none;
 }
 .footer h4 {
   margin-top: 0.5rem;
@@ -806,10 +816,10 @@ Footer
   margin: 0 auto 1rem auto;
 }
 .footer .social-link {
-  color: var(--clr-primary-5);
+  color: var(--clr-white);
 }
 .footer .social-link:hover {
-  color: var(--clr-white);
+  color: var(--clr-primary-5);
 }
 .horizontal-rule {
   height: 4vh;

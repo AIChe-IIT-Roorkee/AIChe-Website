@@ -1,6 +1,5 @@
 import React from "react";
 
-import "./Navbar.css";
 import { Link } from "react-router-dom";
 import Logo from "../../Assets/Images/AIChE_IITR_logo.svg";
 class NavigationBar extends React.Component {

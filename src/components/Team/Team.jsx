@@ -1,8 +1,7 @@
 import React from "react";
 import "../Team/Team.css";
 import Navbar from "../Navbar/Navbar.jsx";
-
-import Footer from "../Footer/Footer.jsx";
+import Title from "../Title.js";
 
 import Members from "./TeamData.js";
 
@@ -18,16 +17,16 @@ export default class Team extends React.Component {
     return (
       <div className="Team">
         <Navbar active={"Team"} />
-
+        <br />
         <center>
-          <h2 id="team">FACULTY COORDINATOR</h2>
-          <br />
+          <Title title={"Faculty Coordinator"} />
+
           <div class="container mt-50">
             <div class="col-md-3 col-sm-6">
               <div class="box16">
                 <img src={`..${faculty_coordinator.image}`} />
-                <div class="box-content">
-                  <h3 class="title">{faculty_coordinator.name}</h3>
+                <div className="box-content">
+                  <h3 className="title">{faculty_coordinator.name}</h3>
                   <span class="post">{faculty_coordinator.designation}</span>
                   <ul class="social">
                     <li>
@@ -45,9 +44,8 @@ export default class Team extends React.Component {
               </div>
             </div>
           </div>
+          <Title title={"Third Year"} />
 
-          <h2 id="team">THIRD YEAR</h2>
-          <br />
           <div class="container mt-40">
             <div class="row mt-30">
               {third_year.map((m, index) => {
@@ -78,9 +76,8 @@ export default class Team extends React.Component {
               })}
             </div>
           </div>
+          <Title title={"Second Year"} />
 
-          <h2 id="team">SECOND YEAR</h2>
-          <br />
           <div class="container mt-40">
             <div class="row">
               {second_year.map((m, index) => {
@@ -111,9 +108,8 @@ export default class Team extends React.Component {
               })}
             </div>
           </div>
+          <Title title={"Previous Members"} />
 
-          <h2 id="team">PREVIOUS MEMBERS</h2>
-          <br />
           <div class="container mt-40">
             <div class="row mt-30">
               {alumni.map((m, index) => {
@@ -122,7 +118,7 @@ export default class Team extends React.Component {
                     <div class="box16">
                       <img src={`..${m.image}`} />
                       <div class="box-content">
-                        <h3 class="title">{m.name}</h3>
+                        <h3 class="title previous-member">{m.name}</h3>
 
                         <ul class="social">
                           <li>
