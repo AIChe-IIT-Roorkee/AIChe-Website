@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "../Navbar/Navbar";
 import "./blogs.css";
-
 import Footer from "../Footer/Footer.jsx";
 import BlogsDataFun from "./BlogsData.jsx";
-
+// import BlogsDataArchived from "./BlogDataArchived";
 class Blogs extends React.Component {
   constructor() {
     super();
@@ -14,9 +13,9 @@ class Blogs extends React.Component {
   }
 
   componentDidMount() {
-    BlogsDataFun.then((allBlogs) => {
-      this.setState({ blogs: allBlogs });
-    });
+      BlogsDataFun.then((allBlogs) => {
+        this.setState({ blogs: allBlogs });
+      });
   }
 
   render() {
@@ -56,17 +55,4 @@ class Blogs extends React.Component {
     );
   }
 }
-
 export default Blogs;
-
-
-
-
-
-
-
-
-
-
-
-
