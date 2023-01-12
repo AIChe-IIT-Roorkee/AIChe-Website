@@ -58,8 +58,6 @@ var alumni = [
         mail: "Ksharma@ch.iitr.ac.in",
         linkedin: "https://www.linkedin.com/in/karan-sharma-7383b8176"
     },
-]
-var third_year = [
     {
         name: "Naitik Jain",
         designation: "President",
@@ -109,68 +107,131 @@ var third_year = [
         image: "/teamImages/Kurelli_Dikshita.png ",
         mail: "kurelli_d@ch.iitr.ac.in",
         linkedin: ""
-    },
-
+    }
 ]
 
 
-var second_year = [
-{
-    name: "Vinayal Garg",
-    designation: "Web Developer",
-    image: "/teamImages/vinayak_garg.png",
-    mail: "vinayak_g@ch.iit.ac.in",
-    linkedin: "https://www.linkedin.com/in/vinayak-garg-525b34204/"
-},
-{
-    name: "Harshit Goyal",
-    designation: "Web Developer",
-    image: "/teamImages/harshit_goyal.png",
-    mail: "Harshit_g@ch.iitr.ac.in",
-    linkedin: "https://www.linkedin.com/in/harshit-goyal-668401200"
-},
+
+var third_year = [
 {
     name:"Ayushi Raj",
-    designation:"Web Developer",
+    designation:"President",
     image: "/teamImages/ayushi_raj.png",
     mail: "ayushi_r@ch.iitr.ac.in",
     linkedin: "https://www.linkedin.com/in/ayushi-raj-gupta-272228202/"
 },
 {
-    name: "Khushi Jain",
-    designation: "Technical Innovator",
-    image: "/teamImages/khushi_jain.png",
-    mail: "khushi_j@ch.iitr.ac.in",
-    linkedin: "https://www.linkedin.com/in/khushi-jain-4a81a0206"
+    name: "Vinayak Garg",
+    designation: "Web Development Head",
+    image: "/teamImages/vinayak_garg.png",
+    mail: "vinayak_g@ch.iit.ac.in",
+    linkedin: "https://www.linkedin.com/in/vinayak-garg-525b34204/"
+},
+{
+    name: "Navya Mamoria",
+    designation: "Relations Head",
+    image: "/teamImages/navya_mamoria.jpg",
+    mail: "navya_m@ch.iitr.ac.in",
+    linkedin: "https://www.linkedin.com/in/navya-mamoria-9571a4206"
 },
 {
     name: "Vanshita Rawat",
-    designation: "Technical Innovator",
-    image: "/teamImages/vanshita_rawat.png",
+    designation: "Editorial Head",
+    image: "/teamImages/vanshita_rawat.jpg",
     mail: "vanshita-jr@ch.iitr.ac.in",
     linkedin: ""
 },
 {
-    name: "Manu Kumar",
-    designation: "Techniacal Innovator",
-    image: "/teamImages/manu_kumar.png",
-    mail: "manukumar2905@gmail.com",
-    linkedin: "https://www.linkedin.com/in/manu-kumar-46356521a"
-},
-{
     name: "Manan Khandelwal",
-    designation: "Technical Innovator",
-    image: "/teamImages/manan_khandelwal.png",
+    designation: "Chem-e-car Head",
+    image: "/teamImages/manan_khandelwal.jpg",
     mail: "manan_k@ch.iitr.ac.in",
     linkedin: ""
 },
 {
-    name: "Navya Mamoria",
-    designation: "Technical Innovator",
-    image: "/teamImages/navya_mamoria.png",
-    mail: "navya_m@ch.iitr.ac.in",
-    linkedin: "https://www.linkedin.com/in/navya-mamoria-9571a4206"
+    name: "Harshit Goyal",
+    designation: "Web Development Manager",
+    image: "/teamImages/harshit_goyal.png",
+    mail: "Harshit_g@ch.iitr.ac.in",
+    linkedin: "https://www.linkedin.com/in/harshit-goyal-668401200"
+},
+
+// {
+//     name: "Khushi Jain",
+//     designation: "Technical Innovator",
+//     image: "/teamImages/khushi_jain.png",
+//     mail: "khushi_j@ch.iitr.ac.in",
+//     linkedin: "https://www.linkedin.com/in/khushi-jain-4a81a0206"
+// },
+
+{
+    name: "Manu Kumar",
+    designation: "Chem-e-car Manager",
+    image: "/teamImages/manu_kumar.png",
+    mail: "manukumar2905@gmail.com",
+    linkedin: "https://www.linkedin.com/in/manu-kumar-46356521a"
 }
+
+
+]
+
+var second_year = [
+    {
+        name:"Samarendra Gouda",
+        designation: "Web Developer",
+        image: "/teamImages/samarendra_gouda.jpeg",
+        mail : "s_gouda@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/samarendra-gouda/"
+    },
+    {
+        name:"Gaurav Sharma",
+        designation: "Web Developer",
+        image: "/teamImages/gaurav_sharma.jpg",
+        mail : "g_sharma@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/gaurav-sharma-535324223/"
+    },
+    {
+        name:"Ch. Sai Rohith",
+        designation: "Designer",
+        image: "/teamImages/csai_rohit.jpg",
+        mail : "sairohithchintakayala@gmail.com ",
+        linkedin : "https://www.linkedin.com/in/sai-rohith-chinthakayala-1013a424b"
+    },
+    {
+        name:"Paridhi Jain",
+        designation: "Designer",
+        image: "/teamImages/paridhi_jain.jpg",
+        mail : "p_jain@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/paridhi-jain-772988233"
+    },
+    {
+        name:"Aditya Chaudhary",
+        designation: "Chem-e-car",
+        image: "/teamImages/aditya_chaudhary.jpg",
+        mail : "a_chaudhary1@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/aditya-chaudhary-a12767233/"
+    },
+    {
+        name:"Kritika",
+        designation: "Designer",
+        image: "/teamImages/kritika_devi.jpg",
+        mail : "k_devi@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/kritika-choudhary-34939124a"
+    },
+    {
+        name:"Rohan Yadav",
+        designation: "Web Developer",
+        image: "/teamImages/rohan_yadav.jpg",
+        mail : "r_yadav1@ch.iitr.ac.in",
+        linkedin : ""
+    },
+    {
+        name:"Vishnu",
+        designation: "Chem-e-car",
+        image: "/teamImages/vishnu.jpg",
+        mail : "Vishnu@ch.iitr.ac.in",
+        linkedin : "https://www.linkedin.com/in/vishnu-yadav-5567a5230"
+    }
 ]
 
 
