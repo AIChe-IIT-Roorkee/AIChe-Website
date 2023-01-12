@@ -12,10 +12,10 @@ const convertToDate = (d) => {
   return requiredDate.split("-").reverse().join("-");
 };
 
-const BlogsDataFun = new Promise((resolve, reject) => {
+const BlogsDataArchived = new Promise((resolve, reject) => {
   axios({
     method: "GET",
-    url: "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@aiche.iitr",
+    url: "https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/aiche-iitr",
   }).then((res) => {
     var blogs = res.data.items;
     blogs.map((b) => {
@@ -30,4 +30,4 @@ const BlogsDataFun = new Promise((resolve, reject) => {
   });
 });
 
-export default BlogsDataFun;
+export default BlogsDataArchived;
